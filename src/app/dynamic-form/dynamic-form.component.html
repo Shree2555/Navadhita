@@ -1,0 +1,26 @@
+<div style="color: red; display: inline-block;">
+  <form action="">
+    <div class="items" *ngFor="let item of list">
+      <label for="">{{item.label}}     :</label>
+      <div *ngIf="item.type==='date'">
+        <input type={{item.type}}>
+
+      </div>
+     <div *ngIf="item.type==='number'">
+
+      <input type={{item.type}}>
+     </div>
+     <div *ngIf="item.type==='dropdown'" >
+      <select>
+            <option *ngFor="let fields of item.items" [value]="fields">{{fields.text}}</option>
+      </select>
+
+     </div>
+
+
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+
+</div>
