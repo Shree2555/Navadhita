@@ -3,15 +3,15 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #696969;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #828982;
+  color: rgb(255, 241, 241);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -20,11 +20,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #d0d0d0;
 }
 
 div {
-  border-radius: 5px;
+  border-radius: 7px;
   background-color: #f2f2f2;
   padding: 20px;
 }
